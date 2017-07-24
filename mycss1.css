@@ -1,0 +1,82 @@
+/*init*/
+html {
+  font-size: 125%;
+  font-family: Arial, "Times New Roman", "Microsoft YaHei", SimSun, SimHei;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 0;
+  background-color: #EFF0F4; }
+
+header {
+  text-align: center;
+  background-color: #5AC0CE;
+  line-height: 60px;
+  color: #FFF;
+  cursor: default; }
+  header .close, header .login {
+    width: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #5AC0CE;
+    border: none;
+    color: #FFF;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    line-height: 60px; }
+    header .close:focus, header .login:focus {
+      color: #FF0000; }
+  header .close {
+    padding-left: 10px;
+    float: left; }
+  header .login {
+    padding-right: 10px;
+    float: right; }
+
+main .user, main .pw {
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #FFF; }
+  main .user img, main .pw img {
+    width: 20px;
+    padding-right: 30px;
+    border-right: #EFF1F2 1px solid;
+    vertical-align: middle;
+    margin-right: 20px; }
+  main .user input, main .pw input {
+    margin: 0;
+    height: 29px;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", SimSun, SimHei;
+    width: 60%; }
+    main .user input::placeholder, main .pw input::placeholder {
+      color: #E2E6E8; }
+main .sign-in {
+  margin-top: 45px;
+  width: 100%;
+  height: 60px;
+  font-size: 1rem;
+  padding: 0;
+  border: none;
+  background-color: #5AC0CE;
+  color: #FFF;
+  cursor: pointer; }
+main .forget {
+  padding: 0;
+  border: none;
+  background-color: #EFF0F4;
+  float: right;
+  margin: 5px 10px 0 0;
+  font-size: 0.9rem;
+  color: #5AC0CE;
+  cursor: pointer; }
+  main .forget:focus {
+    color: #8adf56;
+    outline: none; }
+
+/*# sourceMappingURL=mycss1.css.map */
